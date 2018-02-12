@@ -1,3 +1,4 @@
+![Image](https://s3-us-west-2.amazonaws.com/public-mcgrew/screenshot.png)
 # bare-bone-app
 An example app that uses an app coordinator to separate navigation logic from view controllers.
 
