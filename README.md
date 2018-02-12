@@ -1,4 +1,3 @@
-![Image](https://s3-us-west-2.amazonaws.com/public-mcgrew/screenshot.png)
 # bare-bone-app
 An example app that uses an app coordinator to separate navigation logic from view controllers.
 
@@ -88,3 +87,5 @@ Take a look inside the API folder to see how to setup url endpoints and pass dat
 
 
 Any questions feel free to ask.
+
+![Image](https://s3-us-west-2.amazonaws.com/public-mcgrew/screenshot.png)
