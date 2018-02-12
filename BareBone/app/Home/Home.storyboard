@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GeezaPro.ttc">
+            <string>GeezaPro</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Home Controller-->
+        <scene sceneID="hJY-gQ-bgr">
+            <objects>
+                <viewController storyboardIdentifier="HomeController" id="PH4-lV-cUm" customClass="HomeController" customModule="BareBone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uIG-bJ-7Sg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Be Creative :)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ca1-Rp-P2T">
+                                <rect key="frame" x="30" y="295" width="315" height="72"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ca1-Rp-P2T" firstAttribute="leading" secondItem="wAj-Dn-HBM" secondAttribute="leading" constant="30" id="0ql-3E-csQ"/>
+                            <constraint firstItem="wAj-Dn-HBM" firstAttribute="bottom" secondItem="ca1-Rp-P2T" secondAttribute="bottom" constant="300" id="LB0-lj-jtX"/>
+                            <constraint firstItem="wAj-Dn-HBM" firstAttribute="trailing" secondItem="ca1-Rp-P2T" secondAttribute="trailing" constant="30" id="RFo-kB-xH6"/>
+                            <constraint firstItem="ca1-Rp-P2T" firstAttribute="top" secondItem="wAj-Dn-HBM" secondAttribute="top" constant="275" id="UxL-G1-nfF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wAj-Dn-HBM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IIz-nL-XLv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="96.799999999999997" y="92.203898050974516"/>
+        </scene>
+    </scenes>
+</document>
