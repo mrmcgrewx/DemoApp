@@ -1,6 +1,6 @@
 # Bare Bone App
 In todays world no application ever stays the same as it grows over time, and this is no different for ios applications.
-This app demonstrates the use of an app coordinator design pattern and network distpatcher.
+This app demonstrates the use of an app coordinator design pattern with a network distpatcher for making url requests to an external api.
 
 For an in depth explanation of how this application is setup click below:
 
