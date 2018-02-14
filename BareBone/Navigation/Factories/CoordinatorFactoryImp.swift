@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Creates the navigation coordinators for each part of the app
 final class CoordinatorFactoryImp: CoordinatorFactory
 {
     var networkDispatcher: NetworkDispatcher?
