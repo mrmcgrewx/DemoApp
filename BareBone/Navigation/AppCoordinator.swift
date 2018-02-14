@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// Creates the coordinator for each module within the app
 class AppCoordinator: Coordinator {
     
     var childCoordinators: [Coordinator] = []
