@@ -3,7 +3,9 @@ In todays world no application ever stays the same as it grows over time, and th
 This app demonstrates the use of an app coordinator design pattern and network distpatcher.
 
 For an in depth explanation of how this application is setup click below:
+
 [appCoordinator](./README_inDepth.md)
+
 [NetworkDispatcher](./README_inDepth_network.md)
 
 [Adding a view to the app](./README_inDepth_addView.md)
