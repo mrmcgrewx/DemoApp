@@ -1,4 +1,4 @@
-#App Coordinator Explained
+# App Coordinator Explained
 
 Hey, so lets go over exactly whats going on here and why this application is setup like this in the first place.
 
