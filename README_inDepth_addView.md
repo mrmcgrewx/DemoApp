@@ -1,4 +1,4 @@
-# App Coordinator
+# Adding a View
 The general idea of the app coordinator pattern is to decouple navigation logic from your view controllers. As much of a fan
 as I am of storyboard segues, depending on your implementation they may come back to bite you when you decide to upgrade
 the workflow of your application.
