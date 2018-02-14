@@ -2,7 +2,7 @@
 
 Hey, so lets go over exactly whats going on here and why this application is setup like this in the first place.
 
-So lets start from the hear of the application
+So lets start from the heart of the application
 
 ## App Delegate
 
