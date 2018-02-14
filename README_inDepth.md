@@ -17,8 +17,9 @@ Starting in the app delegate, we setup our Coordinator and NetworkDispatcher obj
 
 within the `self.makeCoordinator()` function we setup our coordinator factory, connecting the
 networkDispatcher in the process and returning an instance of our AppCoordinator.
-
-`return AppCoordinator(router: RouterImp(rootViewController: self.window?.rootViewController as! UINavigationController), coordinatorFactory: factory)`
+```swift
+return AppCoordinator(router: RouterImp(rootViewController: self.window?.rootViewController as! UINavigationController), coordinatorFactory: factory)
+```
 
 So you may have noticed the `RouterImp()` within the AppCoordinator initializer. What we are doing here is passing in our window form
 the AppDelegate as the rootViewController. The router is what is used to push, pop, and set a view controller as the new root in our application
